@@ -14,7 +14,7 @@ Orca 2 is a helpful assistant that is built for research purposes only and provi
 in tasks such as reasoning over user given data, reading comprehension, math problem solving and text summarization.
 The model is designed to excel particularly in reasoning.
 
-We open-source Orca 2 to encourage further research on the development, evaluation, and alignment of smaller LMs.
+We publicly release Orca 2 to encourage further research on the development, evaluation, and alignment of smaller LMs.
 
 ## What is Orca 2’s intended use(s)?
 
