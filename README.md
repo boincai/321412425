@@ -4,6 +4,9 @@ tags:
 - orca
 - orca2
 - microsoft
+license: other
+license_name: microsoft-research-license
+license_link: LICENSE
 ---
 
 # Orca 2
