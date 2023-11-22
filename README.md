@@ -13,11 +13,15 @@ license_link: LICENSE
 
 <!-- Provide a quick summary of what the model is/does. -->
 
-Orca 2 is a helpful assistant that is built for research purposes only and provides a single turn response
-in tasks such as reasoning over user given data, reading comprehension, math problem solving and text summarization.
-The model is designed to excel particularly in reasoning.
+Orca 2 is built for research purposes only and provides a single turn response in tasks such as reasoning over user given data, reading comprehension, math problem solving and text summarization. The model is designed to excel particularly in reasoning.
 
-We publicly release Orca 2 to encourage further research on the development, evaluation, and alignment of smaller LMs.
+Note that:
+
+1. This is a research model, intended to show that we can use capable models and complex workflows (advanced prompts, multiple calls) to create synthetic data that can teach Small Language Models (SLMs) new capabilities. We chose reasoning because it is a widely useful capability that SLMs lack.
+2. The model is not optimized for chat and has not been trained with RLHF or DPO. It is best used after being finetuned for chat or for a specific task.
+3. Beyond reasoning, the model inherits capabilities and limitations of its base (LLAMA-2 base). We have already seen that the benefits of the Orca training can be applied to other base model too.
+
+We make Orca 2's weights publicly available to support further research on the development, evaluation, and alignment of SLMs.
 
 ## What is Orca 2’s intended use(s)?
 
